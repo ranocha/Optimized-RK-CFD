@@ -1,7 +1,7 @@
 # Optimized Low-Storage Runge-Kutta Methods with Automatic Step Size Control for Spectral Element Methods Applied to Compressible Computational Fluid Dynamics
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/TO.svg)](https://doi.org/TODO)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4671927.svg)](https://doi.org/10.5281/zenodo.4671927)
 
 This repository contains coefficients of the optimized Runge-Kutta methods presented in the
 [article](https://arxiv.org/abs/TODO)
@@ -33,7 +33,7 @@ use the coefficients provided here, please **also** cite this repository as
   year={2021},
   month={04},
   howpublished={\url{https://github.com/ranocha/Optimized-RK-CFD}},
-  doi={TODO}
+  doi={10.5281/zenodo.4671927}
 }
 ```
 
