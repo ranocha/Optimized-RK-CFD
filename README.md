@@ -7,8 +7,8 @@ This repository contains coefficients of the optimized Runge-Kutta methods prese
 [article](https://arxiv.org/abs/TODO)
 ```bibtex
 @online{ranocha2021optimized,
-  title={Optimized Low-Storage Runge-Kutta Methods with Automatic 
-         Step Size Control for Spectral Element Methods Applied to 
+  title={Optimized Low-Storage Runge-Kutta Methods with Automatic
+         Step Size Control for Spectral Element Methods Applied to
          Compressible Computational Fluid Dynamics},
   author={Ranocha, Hendrik and Dalcin, Lisandro and Parsani, Matteo
           and Ketcheson, David I.},
@@ -24,9 +24,9 @@ If you find these results useful, please cite the article mentioned above. If yo
 use the coefficients provided here, please **also** cite this repository as
 ```bibtex
 @misc{ranocha2021optimizedCoefficients,
-  title={Coefficints of
-         Optimized Low-Storage Runge-Kutta Methods with Automatic 
-         Step Size Control for Spectral Element Methods Applied to 
+  title={Coefficients of
+         Optimized Low-Storage Runge-Kutta Methods with Automatic
+         Step Size Control for Spectral Element Methods Applied to
          Compressible Computational Fluid Dynamics},
   author={Ranocha, Hendrik and Dalcin, Lisandro and Parsani, Matteo
           and Ketcheson, David I.},
