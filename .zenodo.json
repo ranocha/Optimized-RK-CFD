@@ -2,7 +2,7 @@
     "description": "Optimized Low-Storage Runge-Kutta Methods with Automatic Step Size Control for Spectral Element Methods Applied to Compressible Computational Fluid Dynamics",
     "license": "MIT",
     "title": "Coefficients of Optimized Low-Storage Runge-Kutta Methods with Automatic Step Size Control for Spectral Element Methods Applied to Compressible Computational Fluid Dynamics",
-    "upload_type": "data",
+    "upload_type": "dataset",
     "creators": [
         {
             "affiliation": "University of Münster, Germany",
@@ -13,12 +13,12 @@
 	        "affiliation": "King Abdullah University of Science and Technology, Saudi Arabia",
             "name": "Lisandro Dalcin",
             "orcid": "0000-0001-8086-0155"
-        }
+        },
         {
 	        "affiliation": "King Abdullah University of Science and Technology, Saudi Arabia",
             "name": "Matteo Parsani",
             "orcid": "0000-0001-7300-1280"
-        }
+        },
         {
 	        "affiliation": "King Abdullah University of Science and Technology, Saudi Arabia",
             "name": "David I. Ketcheson",
