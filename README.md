@@ -1,4 +1,4 @@
-# Optimized Low-Storage Runge-Kutta Methods with Automatic Step Size Control for Spectral Element Methods Applied to Compressible Computational Fluid Dynamics
+# Optimized Runge-Kutta Methods with Automatic Step Size Control for Compressible Computational Fluid Dynamics
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4671927.svg)](https://doi.org/10.5281/zenodo.4671927)
@@ -7,9 +7,8 @@ This repository contains coefficients of the optimized Runge-Kutta methods prese
 [article](https://arxiv.org/abs/TODO)
 ```bibtex
 @online{ranocha2021optimized,
-  title={Optimized Low-Storage Runge-Kutta Methods with Automatic
-         Step Size Control for Spectral Element Methods Applied to
-         Compressible Computational Fluid Dynamics},
+  title={Optimized Runge-Kutta Methods with Automatic Step Size Control
+         for Compressible Computational Fluid Dynamics},
   author={Ranocha, Hendrik and Dalcin, Lisandro and Parsani, Matteo
           and Ketcheson, David I.},
   year={2021},
@@ -25,9 +24,8 @@ use the coefficients provided here, please **also** cite this repository as
 ```bibtex
 @misc{ranocha2021optimizedCoefficients,
   title={Coefficients of
-         Optimized Low-Storage Runge-Kutta Methods with Automatic
-         Step Size Control for Spectral Element Methods Applied to
-         Compressible Computational Fluid Dynamics},
+         Optimized Runge-Kutta Methods with Automatic Step Size Control
+         for Compressible Computational Fluid Dynamics},
   author={Ranocha, Hendrik and Dalcin, Lisandro and Parsani, Matteo
           and Ketcheson, David I.},
   year={2021},
@@ -40,15 +38,19 @@ use the coefficients provided here, please **also** cite this repository as
 
 ## Abstract
 
-We discuss and compare adaptive step size control based on CFL numbers and
-error estimates for discontinuous spectral element semidiscretizations of
-conservation laws and related problems in computational fluid dynamics (CFD).
-We demonstrate the importance of choosing adequate controller
-parameters and provide a means to obtain these in practice.
-We develop optimized explicit low-storage Runge-Kutta methods with embedded error
-estimators for CFD, combined with good step size controllers.
-The performance of these new methods is demonstrated in several numerical
-experiments with increasing physical complexity.
+We develop error-control based time integration algorithms for 
+compressible fluid dynamics (CFD) applications and show that they are 
+efficient and robust in both the accuracy-limited and stability-limited regime. 
+Focusing on discontinuous spectral element semidiscretizations, we design new 
+controllers for existing methods and for some new embedded Runge-Kutta pairs.
+We demonstrate the importance of choosing adequate controller parameters and
+provide a means to obtain these in practice. We compare a wide range of
+error-control-based methods, along with the common approach in which step size
+control is based on the Courant-Friedrichs-Lewy (CFL) number. The optimized 
+methods give improved performance and naturally adopt a step size close to the
+maximum stable CFL number at loose tolerances, while additionally providing
+control of the temporal error at tighter tolerances. The numerical examples
+include challenging industrial CFD applications.
 
 
 ## Authors
