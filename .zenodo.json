@@ -1,7 +1,7 @@
 {
-    "description": "Optimized Low-Storage Runge-Kutta Methods with Automatic Step Size Control for Spectral Element Methods Applied to Compressible Computational Fluid Dynamics",
+    "description": "Optimized Runge-Kutta Methods with Automatic Step Size Control for Compressible Computational Fluid Dynamics",
     "license": "MIT",
-    "title": "Coefficients of Optimized Low-Storage Runge-Kutta Methods with Automatic Step Size Control for Spectral Element Methods Applied to Compressible Computational Fluid Dynamics",
+    "title": "Coefficients of Optimized Runge-Kutta Methods with Automatic Step Size Control for Compressible Computational Fluid Dynamics",
     "upload_type": "dataset",
     "creators": [
         {
