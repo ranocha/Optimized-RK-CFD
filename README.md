@@ -4,7 +4,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4671927.svg)](https://doi.org/10.5281/zenodo.4671927)
 
 This repository contains coefficients of the optimized Runge-Kutta methods presented in the
-[article](https://arxiv.org/abs/TODO)
+[article](https://arxiv.org/abs/2104.06836)
 ```bibtex
 @online{ranocha2021optimized,
   title={Optimized Runge-Kutta Methods with Automatic Step Size Control
@@ -13,7 +13,7 @@ This repository contains coefficients of the optimized Runge-Kutta methods prese
           and Ketcheson, David I.},
   year={2021},
   month={04},
-  eprint={TODO},
+  eprint={2104.06836},
   eprinttype={arXiv},
   eprintclass={math.NA}
 }
